@@ -5,7 +5,7 @@ public class TheFeast {
         String beast = "great blue heron";
         String dish = "garlic nann";
 
-        if (beast.charAt(0) == dish.charAt(0) && beast.charAt(beast.length() - 1) == dish.charAt(dish.length() - 1)){
+        if (dish.charAt(0) == beast.charAt(0) && beast.charAt(beast.length() - 1) == dish.charAt(dish.length() - 1)){
             System.out.println("true");
         }
         else{
