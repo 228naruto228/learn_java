@@ -31,6 +31,6 @@ public class SimpleOperation {
         a /= 5; // a = a / 5
 
 
-        System.out.println((a % 2 == 0) ? "Even" : "Odd"); 
+        System.out.println((a % 2 == 0) ? "Even" : "Odd");
     }
 }
