@@ -32,5 +32,22 @@ public class AboutString {
         System.out.println(s1.startsWith("!"));
         System.out.println(s1.endsWith("!"));           //Узнать, заканчивается ли строка s1 подстрокой !
 
+        System.out.println();
+        String[] array = s1.split(" ");          //Разбиение split'ом
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+
+        System.out.println();
+        String s5 = "My name is %s! I'm %d years old";
+        int age = 26;
+        String name = "Anton";
+        System.out.println(String.format(s5, name, age));      //Метод format
+
+        System.out.println();
+        String s6 = "30";
+        int age2 = Integer.parseInt(s6);                      //Парсим String в int
+        System.out.println(age2);
+
+        System.out.println(s1.substring(1, 5));              //Вырезаем из строки s1 подстроку по индексам
     }
 }
